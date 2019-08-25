@@ -1463,7 +1463,7 @@ pre code {
   .cover .cover-card {
     color: rgba(0, 0, 0, 0.87);
     padding: 0 30px;
-    /* display: flex; */
+
     flex-direction: column;
     justify-content: flex-end;
     align-items: center; }
@@ -1513,7 +1513,6 @@ pre code {
     display: block; }
   @media only screen and (min-width: 600px) {
     .cover {
-      /* display: flex; */
       justify-content: center;
       flex-direction: column; } }
 

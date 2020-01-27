@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Home"
+title: "home"
 author: "Chester"
 permalink: //
 published: "2000-06-28"

@@ -1,67 +1,41 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
-title: tony's blog
-email: nexussord@gmail.com
-description: tony's blog
-url: https://nexussord.github.io/ # the base hostname & protocol for your site
-keywords: ["Programming", "Football", "EDM"]
+# Site settings
+title:          MURUNG
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        ""
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
-timezone:          Asia/Seoul
-markdown:          kramdown
-highlighter:       rouge
-excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# Author
+author:
+  name:         Tony Kim
+  url:          https://chester.how
+  email:        nexussord@gmail.com
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: Tony Kim
-  avatar: profile.png #leonids-logo.png
-  job: "한국외국어대학교 재학생"
-  bio: "Global Service Manager @ Bitbyte"
-  email: nexussord@gmail.com
-  disqus-shortname:
-  twitter: #username
-  facebook:
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: nexussord #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
-  instagram: murung_dowon #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-  telegram: #username
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     ./_sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:  jekyll-tale
+exclude: [vendor]

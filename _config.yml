@@ -1,7 +1,7 @@
 # Site settings
 title:          MURUNG
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        ""
+baseurl:        "/home"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X

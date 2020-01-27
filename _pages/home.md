@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "About"
+title: "Home"
 author: "Chester"
-permalink: /home/
+permalink: //
 published: "2000-06-28"
 post-header: true
 header-img: "header.jpg"

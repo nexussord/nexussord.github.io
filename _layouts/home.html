@@ -4,34 +4,18 @@ layout: default
 
 <div class="catalogue">
   {% for post in paginator.posts %}
-  <li class="catalogue-item">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+      <div>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h1 class="catalogue-title">{{ post.title }}</h1>
+        <div class="catalogue-line"></div>
 
-      <time datetime="{{ post.date }}" class="catalogue-type">{{ post.date | date: "%B %d, %Y" }}</time>
-      <p class="catalogue-type">
-        {{ post.category }}
-      </p>
-
-      <div class="catalogue-info transition">
-        <h1 class="catalogue-title">
-          {{ post.title }}
-        </h1>
-        <p class="catalogue-body">
-          {{ post.content | truncatewords: 24 | strip_html }}
+        <p>
+          {{ post.content | strip_html | truncatewords: 30 }}
         </p>
+
       </div>
-<!--        <p class="catalogue-type">-->
-<!--          {{ page.category }}-->
-<!--        </p>-->
-<!--        <h1 class="catalogue-title">{{ post.title }}</h1>-->
-<!--        <div class="catalogue-line"></div>-->
-
-<!--        <p class="catalogue-body">-->
-<!--          {{ post.content | strip_html | truncatewords: 30 }}-->
-<!--        </p>-->
     </a>
-  </li>
-
   {% endfor %}
 </div>
 

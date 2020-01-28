@@ -1,16 +1,17 @@
 # Site settings
-title:          MURUN
+title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        ""
+url:            "https://chesterhow.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Tony Kim
+  name:         Chester How
   url:          https://chester.how
-  email:        nexussord@gmail.com
+  email:        chesterhow@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -19,7 +20,7 @@ include:
 
 # Assets
 sass:
-  sass_dir:     ./_sass
+  sass_dir:     _sass
   style:        compressed
 
 # Gems
@@ -32,11 +33,9 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
-paginate_path:  posts/page:num
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
-disqus:  jekyll-tale
-exclude: [vendor]
+disqus:         jekyll-tale

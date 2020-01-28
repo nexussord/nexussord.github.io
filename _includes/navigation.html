@@ -1,14 +1,11 @@
-{% assign current = page.url | downcase | split: '/' %}
 <nav class="nav">
   <div class="nav-container">
-    <a href="{{ '' | prepend: site.baseurl }}" class="arrange_left">
-      <h2 class="nav-title, sans">{{ site.title }}</h2>
+    <a href="{{ site.baseurl }}/">
+      <h2 class="nav-title">{{ site.title }}</h2>
     </a>
-    <ul class="arrange_right">
-      <li class="transition"><a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "posts" or current[1] == "category" %} class="normal" {% endif %} class="active">Home</a></li>
-      <li class="transition"><a href="{{ '/about' | prepend: site.baseurl }}/" {% if current[1] == "about" %} class="active"{% endif %}>About</a></li>
-      <li class="transition"><a href="{{ '/posts' | prepend: site.baseurl }}/" {% if current[1] == "posts" %} class="active"{% endif %}>Posts</a></li>
-      <li class="transition"><a href="{{ '/category' | prepend: site.baseurl }}/" {% if current[1] == "category" %} class="active"{% endif %}>Category</a></li>
+    <ul>
+      <li><a href="{{ '' | prepend: site.baseurl }}">About</a></li>
+      <li><a href="{{ '/posts' | prepend: site.baseurl }}/">Posts</a></li>
     </ul>
   </div>
 </nav>

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Pagination Post"
-categories: [test]
 author: "Chester"
 ---
 

@@ -3,15 +3,9 @@
 
   {% include head.html %}
 
-<!--  <link rel="stylesheet" href="/_sass/_base.scss">-->
   <body>
 
     {% include navigation.html %}
-
-    <!-- 블로그 포스트의 이미지를 위한 헤더페이지 -->
-    {% if page.post-header == true %}
-      {% include post-header.html %}
-    {% endif %}
 
     <main>
       {{ content }}

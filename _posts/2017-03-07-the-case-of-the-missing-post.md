@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Case of the Missing Post"
-categories: [test]
 author: "Chester"
 ---
 

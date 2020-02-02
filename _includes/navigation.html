@@ -5,7 +5,7 @@
       <h2 class="nav-title, sans">{{ site.title }}</h2>
     </a>
     <ul class="arrange_right">
-      <li class="transition"><a href="{{ '/' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "posts" or current[1] == "category" %} class="normal" {% endif %} class="active">Home</a></li>
+      <li class="transition"><a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "posts" or current[1] == "category" %} class="normal" {% endif %} class="active">Home</a></li>
       <li class="transition"><a href="{{ '/about' | prepend: site.baseurl }}/" {% if current[1] == "about" %} class="active"{% endif %}>About</a></li>
       <li class="transition"><a href="{{ '/posts' | prepend: site.baseurl }}/" {% if current[1] == "posts" %} class="active"{% endif %}>Posts</a></li>
       <li class="transition"><a href="{{ '/category' | prepend: site.baseurl }}/" {% if current[1] == "category" %} class="active"{% endif %}>Category</a></li>

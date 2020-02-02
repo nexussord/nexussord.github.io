@@ -71,10 +71,10 @@ td {
   transition: all 0.3s ease-in-out;
 }
 
-
 .sans{
-  font-family: "Product Sans";
+  font-family: $product;
 }
+
 
 ::selection {
   background: $yellow;

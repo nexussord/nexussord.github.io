@@ -3,35 +3,36 @@ layout: default
 ---
 
 <div class="post">
-  <div class="post-info">
-    <div class="post-type-tag">
-      <div class="post-type">
-        {{ page.categories }}
-      </div>
+    <div class="post-info">
+        <div class="post-type-tag">
+            <div class="post-type">
+                {{ page.categories }}
+            </div>
+        </div>
+        <h1 class="post-title">
+            {{ page.title }}
+        </h1>
+        <h2 class="post-subtitle">
+            {{ page.subtitle }}
+        </h2>
+
+        {{ content }}
     </div>
-    <h1 class="post-title">
-      {{ page.title }}
-    </h1>
-    <h2 class="post-subtitle">
-      {{ page.subtitle }}
-    </h2>
-
-    {{ content }}
-  </div>
 
 
 
-  {% if page.comments %}
-  {% include disqus_comments.html %}
-  {% endif %}
-
-  <div class="pagination">
-    {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-    {% endif %}
-    {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+    {% if page.comments %}
+    {% include disqus_comments.html %}
     {% endif %}
 
-    <a href="#" class="top">Top</a>
-  </div>
+    <div class="pagination">
+        {% if page.next.url %}
+        <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+        {% endif %}
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+        {% endif %}
+
+        <a href="#" class="top">Top</a>
+    </div>
+</div>

@@ -1,5 +1,5 @@
 # Site settings
-title:          Tale
+title:          MURUNG
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        ""
 url:            "https://chesterhow.github.io"
@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
+  name:         Tony Kim
   url:          https://chester.how
-  email:        chesterhow@gmail.com
+  email:        nexussord@gmail.com
 
 # Build settings
 markdown:       kramdown

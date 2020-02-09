@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Category"
-author: "Chester"
+author: "Tony"
 permalink: /category/
 ---
 

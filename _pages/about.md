@@ -1,17 +1,22 @@
 ---
-layout: post
+layout: default
 title: ""
 author: "Tony"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
-
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
-
-
-
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
-
-Thanks for reading!
+<div class="intro-animation">
+<section class="explanation">
+    <h1 class="intro">
+    기회는 기다리는 것이 아닌,
+    </h1>
+    <h1 class="intro">
+        <div class="intro-link">
+            직접 찾아나서는 것이다. 
+            <div class="underline-mask transition"></div>
+            <div class="underline"></div>
+        </div>
+    </h1>
+    <h2 class="intro">화이트블록에서 '테이킷' 서비스를 운영중인 '김도원' 입니다.</h2>
+</section>
+</div>

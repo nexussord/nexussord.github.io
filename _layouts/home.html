@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="catalogue">
+<div class="posts-list">
+    {% assign category = page.category | default: page.title %}
     {% for post in paginator.posts %}
     <li class="catalogue-item">
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -27,13 +28,4 @@ layout: default
     {% endfor %}
 </div>
 
-<div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-    {% endif %}
-
-    <span>{{ paginator.page }}</span>
-</div>
+{% include pagination.html %}

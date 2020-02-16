@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Example Content"
+categories: [Guide copy]
 author: "Chester"
 ---
 

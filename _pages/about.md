@@ -26,7 +26,7 @@ IT 특성화고를 졸업하고 대학생이자 직장인으로서의 삶을 살
 - 2019 [SXSW](http://biz.newdaily.co.kr/site/data/html/2019/03/18/2019031800103.html) 부스 운영 
 - 2019 하계 HUFS [글로벌 봉사단](http://builder.hufs.ac.kr/user/indexSub.action?framePath=unknownboard&siteId=hufs&dum=dum&boardId=41994&page=1&command=view&boardSeq=125869008)
 - 24기 [해피무브](https://happymove.hyundaimotorgroup.com/real_index.do) 글로벌 청년봉사단
-- [Store for MCPE](https://play.google.com/store/apps/details?id=com.newidea.mcpestore&hl=en)팀 서비스 영문 현지화 담당
+- [Store for MCPE](https://play.google.com/store/apps/details?id=com.newidea.mcpestore&hl=en)팀 서비스 영문화 담당
 
 <br />
 

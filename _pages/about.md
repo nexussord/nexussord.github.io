@@ -7,8 +7,8 @@ post-header: true
 header-img: "head.jpg"
 ---
 # About Me
-IT 특성화고를 졸업하고 대학생이자 직장인으로서의 삶을 살아가는중이다. 스타트업 업계에 관심이 많으며 <ins>**기획과 PM, 마케팅**</ins> 분야의 실력을 키우기 위해 노력하고 있다. 영어실력에 자신있으며, 더 넓은 세상인 미국 및 유럽진출을 꿈꾸며 다양한 경험을 쌓기위해 다양한 도전중이다. 근데 난 원래 이렇게 진지한 사람이 아닌데... 글을 쓰다보니 조금 멋있고 있어보여서 뿌듯하다. ~~원래는 진지하기보단 까불거리는 성격이라 ㅎㅎ~~
-
+IT 특성화고를 졸업하고 대학생이자 직장인으로서의 삶을 살아가는중입니다. 스타트업 업계에 관심이 많으며 <ins>**기획과 PM, 마케팅**</ins> 분야의 실력을 키우기 위해 노력하고 있습니다. 영어 커뮤니케이션에 강하고, 더 넓은 세상인 미국 및 유럽진출을 꿈꾸며 다양한 경험을 쌓기위해 도전중입니다. 
+<br />
 <br />
 ### Awards - 실력증진을 위해 참여한 대회들 
 
@@ -19,13 +19,14 @@ IT 특성화고를 졸업하고 대학생이자 직장인으로서의 삶을 살
 - 고려대학교 해커톤 [디자인상]()
 
 <br />
-### Activities - 다양한 도전을 위해 쌓아온 소중한 경험들
+### Activities - 값진 도전을 위해 쌓아온 다양한 경험들
 
 - [Smarteen Appjam](https://www.facebook.com/smarteenappclub/) 12th, 13th 서포터즈
 - [Hello! Coding!](http://www.donga.com/news/article/all/20170608/84763013/1) 봉사단 운영팀
 - 2019 [SXSW](http://biz.newdaily.co.kr/site/data/html/2019/03/18/2019031800103.html) 부스 운영 
 - 2019 하계 HUFS [글로벌 봉사단](http://builder.hufs.ac.kr/user/indexSub.action?framePath=unknownboard&siteId=hufs&dum=dum&boardId=41994&page=1&command=view&boardSeq=125869008)
 - 24기 [해피무브](https://happymove.hyundaimotorgroup.com/real_index.do) 글로벌 청년봉사단
+- [Store for MCPE](https://play.google.com/store/apps/details?id=com.newidea.mcpestore&hl=en)팀 서비스 영문 현지화 담당
 
 <br />
 
